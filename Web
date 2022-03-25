@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url("avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg");
+            background-size: cover;
+            background-position: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 23px;
+            position: fixed;
+            
+
+        }
+
+        .mid {
+            border: none;
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+            top: 50px;
+            /* position: fixed; */
+
+
+        }
+
+        .right {
+            border: right;
+            display: inline-block;
+            position: absolute;
+            position: absolute;
+            top: 20px;
+            right: 23px;
+            position: fixed;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: rgb(20, 141, 95);
+            text-decoration: none;
+            padding: 0px 18px;
+            font-size: 25px;
+
+        }
+
+        .navbar li a:hover {
+            border: 2px solid white;
+            background-color: white;
+            border-radius: 10px;
+
+        }
+
+        .left img {
+            width: 66px;
+            align-items: center;
+        }
+
+        .left h1 {
+            font-size: 20px;
+            text-align: center;
+            line-height: 0em;
+        }
+
+        .btn {
+            background-color: rgb(187, 255, 60);
+            border: 5px solid rgb(187, 255, 60);
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0px 10px;
+            margin: 0px 2px;
+        }
+
+        .btn,
+        a {
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: white;
+            border-radius: 10px;
+            border: 5px solid white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        .container{
+            border: 2px solid #ff5ff5;
+            margin: 106px 80px;
+            padding: 40px;
+            width: 33%;
+            border-radius: 28px;
+            
+        }
+        .formgroup, input{
+            text-align: center;
+            display: block;
+            /* width: 34px; */
+            padding: 1px 38px;
+            border: 2px solid black;
+            margin: 3px auto;
+            font-size:  20px ;
+            background-color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+        .btn2{
+            display: block;
+            width: auto;
+            margin: 5px auto;
+            padding: 0px 134px;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+        }
+        .btn2:hover{
+            display: block;
+            width: auto;
+            margin: 5px auto;
+            padding: 0px 134px;
+            font-size: 20px;
+            background-color: White;
+            
+        }
+        .btn2 a{
+            color: white;
+        }
+        .btn2 a:hover{
+            color: black;
+        }
+        .footer{
+        text-align: center;
+        margin-bottom: 8px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: blue;
+        }
+       
+    </style>
+</head>
+<pre><code></code></pre>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="/2021-02-04.png" alt="">
+            <h1>
+                Hasnain
+            </h1>
+        </div>
+        <div class="mid">
+            <ul class="navba">
+                <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About</a></li>
+            </nav>
+            </ul>
+        </div>
+        <div class="right">
+            <Button class="btn">
+                <a href="#" target="_blank">Sign Up</a>
+            </Button>
+            <Button class="btn">
+                <a href="/index1.html" target="_blank">Sign In</a>
+            </Button>
+        </div>
+    </header>
+    <div class="container">
+       <h2>Join Best Academy Of Hasilpur</h2>
+       <form action="noaction.php">
+           <div class="formgroup">
+               <input type="text" name="" placeholder="Enter Your Name">
+           </div>
+           
+           <div class="formgroup">
+            <input type="number" name="" placeholder="Enter Your Phone">
+        </div>
+        
+        <div class="formgroup">
+            <input type="number" name="" placeholder="Enter Your Age">
+        </div>
+        
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Class">
+        </div>
+        
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Specilization">
+        </div>
+        <div>
+            <button class="btn2">
+                <a href="#">Submit</a>
+            </button>
+        </div>
+       </form>
+    </div>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad officia eveniet fugit maiores esse. Nesciunt, maxime deserunt incidunt temporibus quos perspiciatis optio mollitia autem molestiae dolorum assumenda, perferendis excepturi provident.</p>
+    <footer class="footer">&copy; Technical Hasnain</footer>
+</body>
+
+</html>
